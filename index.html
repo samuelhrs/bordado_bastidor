@@ -61,24 +61,20 @@
 </head>
 <body>
 
-<h1>Veja o valor do bordado</h1>
+<h1>Bastidor</h1>
 <form>
-    <label for="tipo">Bastidor ou Moldura:</label>
+    <label for="tipo">Bastidor:</label>
     <select id="bastidor" required>
         <option value="bastidorPequeno">Bastidor - 12cm</option>
         <option value="bastidorMedio">Bastidor - 15 cm</option>
         <option value="bastidorGrande">Bastidor - 20 cm</option>
-        <option value="molduraPequena">Moldura - 20 cm</option>
-        <option value="molduraGrande">Moldura - 25 cm</option>
     </select>
-
+    
         <label for="tipo">Algodão:</label>
     <select id="algodao" required>
         <option value="algodaoBP">Algodão Bastidor - 12cm</option>
         <option value="algodaoBM">Algodão Bastidor - 15 cm</option>
         <option value="algodaoBG">Algodão Bastidor - 20 cm</option>
-        <option value="algodaoMP">Algodão Moldura - 20 cm</option>
-        <option value="algodaoMG">Algodão Moldura - 25 cm</option>
     </select>
 
     <label for="tipo">Linha (metros):</label>
@@ -143,8 +139,6 @@
             bastidorPequeno: 13,
             bastidorMedio: 14,
             bastidorGrande: 15, 
-            molduraPequena: 36.30,
-            molduraGrande: 43.48,
 
             cordaoPequeno: 0.14,
             cordaoMedio: 0.17,
@@ -153,8 +147,6 @@
             algodaoBP: 0.31, //12cm 
             algodaoBM: 0.47, //15cm
             algodaoBG: 0.78, //20cm
-            algodaoMP: 0.78, //20cm
-            algodaoMG: 1.26, // 25cm
         };
 
         // Obter seleções
